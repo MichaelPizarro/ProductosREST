@@ -15,7 +15,7 @@ public class Producto {
 	private String nombre;
 	private float precio;
 	
-	public Producto(Integer id, String nombre, float precio) {
+	public Producto(Integer id, String nombre, float precio) { //Aqui va el constructor
 		super();
 		this.id = id;
 		this.nombre = nombre;
