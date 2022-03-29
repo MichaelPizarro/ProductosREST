@@ -23,6 +23,13 @@ public class OtraPrueba {
 	public void setTres(int tres) {
 		this.tres = tres;
 	}
-	
-	
+
+	@Override
+	public String toString() {
+		return "OtraPrueba{" +
+				"uno=" + uno +
+				", dos=" + dos +
+				", tres=" + tres +
+				'}';
+	}
 }

@@ -23,6 +23,13 @@ public class EstoEsPrueba {
 	public void setEnumeracion(float enumeracion) {
 		this.enumeracion = enumeracion;
 	}
-	
-	
+
+	@Override
+	public String toString() {
+		return "EstoEsPrueba{" +
+				"numero=" + numero +
+				", palabra='" + palabra + '\'' +
+				", enumeracion=" + enumeracion +
+				'}';
+	}
 }
