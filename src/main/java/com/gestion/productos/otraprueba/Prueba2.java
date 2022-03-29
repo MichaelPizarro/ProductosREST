@@ -35,4 +35,13 @@ public class Prueba2 {
     public void setSiExsite(boolean siExsite) {
         this.siExsite = siExsite;
     }
+
+    @Override
+    public String toString() {
+        return "Prueba2{" +
+                "numero=" + numero +
+                ", nombre='" + nombre + '\'' +
+                ", siExsite=" + siExsite +
+                '}';
+    }
 }
